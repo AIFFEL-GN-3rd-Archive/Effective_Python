@@ -9,10 +9,10 @@ class queue():
     
     def pop(self):
         if len(self.queue_list) == 1: 
-            #일단 예외처리 하긴 했는데, 
-            # 어케해야 깔끔할까
-            #이거 안하면 리스트 길이 1일때 
-            #dequeue하고 빈 리스트가 출력되버림..
+            # 일단 예외처리 하긴 했는데, 
+            # 어케해야 깔끔할까요
+            # 이거 안하면 리스트 길이 1일때 
+            # dequeue하고 빈 리스트가 출력되버림..
             return -1
 
         elif self.empty() == 0:
